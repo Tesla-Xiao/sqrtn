@@ -1,5 +1,5 @@
 # sqrtn
-An R pacakge to calculate sqrt(n) with very high precision. "sqrtn"" implements dramatically fast. It takes only less than 30 seconds to approximate sqrt(2) with 100,000 digits.
+An R pacakge to calculate sqrt(n) with very high precision. "sqrtn" implements dramatically fast. It takes only less than 30 seconds to approximate sqrt(2) with 100,000 digits.
 
 # Installation
 
@@ -11,8 +11,6 @@ An R pacakge to calculate sqrt(n) with very high precision. "sqrtn"" implements 
 
    - [x] [sqrtn-manual.pdf](https://github.com/Tesla-Xiao/sqrtn/blob/master/inst/sqrtn-manual.pdf) ---------- Details of the usage of the package.
    
-   - [x] [sqrt2.pdf](https://github.com/xliusufe/sqrtn/blob/master/inst/sqrt2-approx.pdf) ---------- The first one million digits of the square root of 2.
-
 # Example
     library(sqrtn)
 
