@@ -9,7 +9,7 @@ An R pacakge to calculate sqrt(n) with very high precision. "sqrtn" implements d
 
 # Usage
 
-   - [x] [sqrtn-manual.pdf](https://github.com/xliusufe/sqrtn/blob/master/Rpackage/inst/sqrtn-manual.pdf) ---------- Details of the usage of the package.
+   - [x] [sqrtn-manual.pdf](https://github.com/xliusufe/sqrtn/blob/master/inst/sqrtn-manual.pdf) ---------- Details of the usage of the package.
    
    - [x] [sqrt2.pdf](https://github.com/xliusufe/sqrtn/blob/master/inst/sqrt2-approx.pdf) ---------- The first one million digits of the square root of 2.
    
