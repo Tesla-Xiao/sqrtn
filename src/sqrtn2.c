@@ -190,6 +190,7 @@ void divi(char *qt, int prec, int number, int Ln) {
 	for (; i >= 0; i--, qe++, qt++) { *qt = *qe + 48; }
 	*qt = '.'; qt++;
 	for (; prec > 0; prec--, qe++, qt++) { *qt = *qe + 48; }
+	*qt='\0';
 }
 
 SEXP sqrtn2(SEXP prec0, SEXP N)
@@ -209,7 +210,7 @@ SEXP sqrtn2(SEXP prec0, SEXP N)
 	for(i=n,Ln=1;i>=10;i/=10,Ln++);
 	if (Ln % 2) {prec += Ln / 2+1;}
 	else{prec += Ln / 2;}
-	quotient_s = (char *)malloc(sizeof(char)*(prec+1));
+	quotient_s = (char *)malloc(sizeof(char)*(prec+2));
 	divi(quotient_s, prec, n, Ln);
 
 	SET_STRING_ELT(rquotient_s, 0, mkChar(quotient_s));

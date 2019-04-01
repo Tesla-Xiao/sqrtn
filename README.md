@@ -5,24 +5,14 @@ An R pacakge to calculate sqrt(n) with very high precision. "sqrtn"" implements 
 
     #install.packages("devtools")
     library(devtools)
-    install_github("xliusufe/sqrtn")
+    install_github("Tesla-Xiao/sqrtn")
 
 # Usage
 
-   - [x] [sqrtn-manual.pdf](https://github.com/xliusufe/sqrtn/blob/master/Rpackage/inst/sqrtn-manual.pdf) ---------- Details of the usage of the package.
+   - [x] [sqrtn-manual.pdf](https://github.com/Tesla-Xiao/sqrtn/blob/master/inst/sqrtn-manual.pdf) ---------- Details of the usage of the package.
    
    - [x] [sqrt2.pdf](https://github.com/xliusufe/sqrtn/blob/master/inst/sqrt2-approx.pdf) ---------- The first one million digits of the square root of 2.
-   
-   - [x] [sqrt3.md](https://github.com/xliusufe/sqrtn/blob/master/inst/sqrt3.md) ---------- The first many digits of the square root of 3.
-      
-   - [x] [sqrt5.md](https://github.com/xliusufe/sqrtn/blob/master/inst/sqrt5.md) ---------- The first many digits of the square root of 5.
- 
-   - [x] [sqrt6.md](https://github.com/xliusufe/sqrtn/blob/master/inst/sqrt6.md) ---------- The first many digits of the square root of 6.
-   
-   - [x] [sqrt7.md](https://github.com/xliusufe/sqrtn/blob/master/inst/sqrt7.md) ---------- The first many digits of the square root of 7.
-   
-   - [x] [sqrt8.md](https://github.com/xliusufe/sqrtn/blob/master/inst/sqrt8.md) ---------- The first many digits of the square root of 8.
-   
+
 # Example
     library(sqrtn)
 
