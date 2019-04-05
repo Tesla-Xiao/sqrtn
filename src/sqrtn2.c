@@ -185,8 +185,9 @@ void divi(char *qt, int prec, int number, int Ln) {
 		digit++;
 		pr++;
 	}
-
-	int i = (Ln - 1) / 2; prec -= i;
+	
+	int i = (Ln - 1) / 2; 
+	prec -= Ln/2+Ln%2;
 	for (; i >= 0; i--, qe++, qt++) { *qt = *qe + 48; }
 	*qt = '.'; qt++;
 	for (; prec > 0; prec--, qe++, qt++) { *qt = *qe + 48; }
