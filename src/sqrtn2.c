@@ -88,7 +88,7 @@ int searchk(int *de, int Ld, int pre) {
 	for (int i = Ld; i > 0; i--)
 	{
 		number = number * 10 + *de;
-		*de++;
+		de++;
 	}
 	int c = number / pre;
 	while (c*(c + pre) > number) c--;
