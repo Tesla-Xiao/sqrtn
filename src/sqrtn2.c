@@ -116,15 +116,15 @@ void divi(char *qt, int prec, int number, int Ln) {
 		*d -= k % 10;
 		if (*d < 0) { 
 			*d += 10; 
-			*de--; 
+			(*de)--; 
 		}
 		*de -= k / 10;
 	}
 	else {
-		*d -= k % 10;
+		*d -= k;
 		if (*d < 0) { 
 			*d += 10; 
-			*de--; 
+			(*de)--; 
 		}
 	}
 	while (!(*de)) { 
